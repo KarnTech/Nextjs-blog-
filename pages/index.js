@@ -6,7 +6,6 @@ import { getSortedPosts } from "@utils/posts";
 export default function Home({ posts }) {
   return (
     <Layout>
-      <h1>Trial post </h1>
       <SEO title="All posts" />
       <Bio className="my-14" />
       {posts.map(({ frontmatter: { title, description, date }, slug }) => (
