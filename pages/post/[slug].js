@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown/with-html";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import style from "react-syntax-highlighter/dist/cjs/styles/prism/dracula";
 
-import { Layout, Image, SEO, Bio } from "@components/common";
+import { Layout, Image, SEO, Bio, Header } from "@components/common";
 import { getPostBySlug, getPostsSlugs } from "@utils/posts";
 //this is the actual blog. 
 export default function Post({ post, frontmatter, nextPost, previousPost }) {

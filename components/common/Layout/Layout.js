@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { useTheme } from "next-themes";
+import styles from './layout.module.css'
 
 export function Layout({ children }) {
   return (
@@ -21,6 +22,22 @@ export function Layout({ children }) {
   );
 }
 
+
+const Header = () => {
+
+  return (
+    <header>
+      <div>
+        <img className={styles.header__image} src="https://ak-d.tripcdn.com/images/100i12000000t464t9CFA.jpg" alt ="" />
+      </div>
+
+    </header>
+  )
+}
+
+
+
+/*
 const Header = () => {
   const { theme, setTheme } = useTheme();
   const { pathname } = useRouter();
@@ -58,6 +75,8 @@ const Header = () => {
     </header>
   );
 };
+
+*/
 
 const LargeTitle = () => (
   <h1>
