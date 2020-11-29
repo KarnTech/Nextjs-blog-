@@ -5,7 +5,7 @@ import style from "react-syntax-highlighter/dist/cjs/styles/prism/dracula";
 
 import { Layout, Image, SEO, Bio } from "@components/common";
 import { getPostBySlug, getPostsSlugs } from "@utils/posts";
-
+//this is the actual blog. 
 export default function Post({ post, frontmatter, nextPost, previousPost }) {
   return (
     <Layout>
