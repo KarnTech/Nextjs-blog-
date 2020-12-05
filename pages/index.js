@@ -10,6 +10,7 @@ export default function Home({ posts }) {
       <SEO title="All posts" />
 
       <Bio className="my-14" />
+
       {posts.map(({ frontmatter: { title, description, date }, slug }) => (
         <article key={slug}>
           <header className="mb-2">

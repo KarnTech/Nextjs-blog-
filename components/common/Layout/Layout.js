@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { useTheme } from "next-themes";
 import styles from './layout.module.css'
+import {Header} from '../Header/Header.js'
 
 export function Layout({ children }) {
   return (
@@ -13,9 +14,12 @@ export function Layout({ children }) {
         <Header />
         <main>{children}</main>
         <footer className="text-lg font-light">
-          © {new Date().getFullYear()}, Built with{" "}
-          <a href="https://nextjs.org/">Next.js</a>
+          © {new Date().getFullYear()}, Built with
           &#128293;
+
+          <div>About us</div>
+          <div>disclainer</div>
+          <div>Contact US</div>
         </footer>
       </div>
     </div>
@@ -23,18 +27,25 @@ export function Layout({ children }) {
 }
 
 
-const Header = () => {
+/*
 
+const Header = () => {
   return (
     <header>
       <div>
+        <div>The Review Theory</div>
+        <div>Menu</div>
+        <div>About Us</div>
+        <div>Contact Us</div>
+      </div>
+      <div>
         <img className={styles.header__image} src="https://ak-d.tripcdn.com/images/100i12000000t464t9CFA.jpg" alt ="" />
       </div>
-
     </header>
   )
 }
 
+*/
 
 
 /*
