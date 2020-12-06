@@ -9,6 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^4.9.1",
     "clsx": "^1.1.1",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",

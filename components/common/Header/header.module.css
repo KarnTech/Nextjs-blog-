@@ -4,7 +4,7 @@
     height:72px;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     z-index: 1000;
     width:100%;
     top:0px;
@@ -21,7 +21,22 @@
 }
 
 .header__image {
-    margin-top:72px
+    position: relative;
+    height:350px;
+    background: rgb(18, 20, 22);
+    z-index: 3;
+    display:block;
+    box-sizing: border-box;
+    max-width: 100vw
+}
+
+.header__frontimage {
+    max-height: 350px;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+    position:absolute
 }
 
 .header__title {
@@ -31,7 +46,8 @@
     padding-bottom:10px;
     color: black;
     font-size:30px;
-    padding-left:15px
+    padding-left:15px;
+    display:flex
 }
 
 .header__menu{
