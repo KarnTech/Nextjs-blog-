@@ -1,14 +1,21 @@
+import styles from './header.module.css'
+
+
+
 export function Header() {
   return (
     <header>
-      <div>
-        <div>The Review Theory</div>
-        <div>Menu</div>
-        <div>About Us</div>
-        <div>Contact Us</div>
+      <div className={styles.header}>
+        <a className={styles.header__title}>The Review Theory</a>
+        <div className={styles.header__pages}>
+          <div className={styles.header__menu}>Menu</div>
+          <div className={styles.header__menu}>About Us</div>
+          <div className={styles.header__menu}>Contact Us</div>
+          <div className={styles.header__menu}>Sign up</div>
+        </div>        
       </div>
       <div>
-        <img src="https://ak-d.tripcdn.com/images/100i12000000t464t9CFA.jpg" alt ="" />
+        <img className = {styles.header__image} src="https://ak-d.tripcdn.com/images/100i12000000t464t9CFA.jpg" alt ="" />
       </div>
     </header>
   )

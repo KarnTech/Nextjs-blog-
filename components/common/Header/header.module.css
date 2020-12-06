@@ -1,0 +1,43 @@
+.header {
+    display:inline-flex;
+    border: 1px solid black;
+    height:72px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    width:100%;
+    top:0px;
+    background: white
+}
+
+.header > a {
+    text-decoration: none;
+}
+
+.header__pages {
+    display:flex;
+    justify-content: space-between;
+}
+
+.header__image {
+    margin-top:72px
+}
+
+.header__title {
+    cursor: pointer;
+    font-weight: 400;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: black;
+    font-size:30px;
+    padding-left:15px
+}
+
+.header__menu{
+    min-width:100px;
+    color:rgb(18, 20, 22);
+    background: #FFF;
+    text-align: center;
+}
+
