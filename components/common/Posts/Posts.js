@@ -18,10 +18,12 @@ export  function Posts({title, description, date}) {
           >
             <section>
               <Meta title={title} description={description} />
-              <span className="text-sm">{date}</span>
 
             </section>
           </Card>
         </div>
       )
 }
+
+
+//              <span className="text-sm">{date}</span>
