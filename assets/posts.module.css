@@ -1,8 +1,8 @@
 .posts {
     border:1px solid black;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px 100px;
-    max-width:100%;
+    position: relative;
+    width:1200px;
+    margin: auto; 
+    justify-content: space-around;   
 }
