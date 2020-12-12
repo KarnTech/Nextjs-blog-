@@ -1,8 +1,28 @@
 .posts {
+    display:flex
+}
+
+.left {
+    border:1px solid black;
+    height:300px;
+    flex:0.15
+}
+
+.postsmain {
     border:1px solid black;
     display: flex;
     position: relative;
     width:1200px;
-    margin: auto; 
-    justify-content: space-around;   
+    justify-content: space-around;  
+    height:300px;
+    flex:0.7
+}
+
+
+
+.right {
+    border:1px solid black;
+    
+    height:300px;
+    flex:0.15
 }
