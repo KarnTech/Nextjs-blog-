@@ -1,5 +1,5 @@
 <h1 align="center">
-  Next.js blog starter
+  The Review Theory
 </h1>
 
 Start off your writing journey with this Next.js markdown blog template.
